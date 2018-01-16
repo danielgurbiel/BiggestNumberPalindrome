@@ -54,25 +54,7 @@ public class TheBiggestPrimePalindrome {
             ++tmp;
             --tmp_2;
         }
-        return true;
-      /*  boolean result = false;
-        String word = "" + value; //100000    1000000
-        if(word.length()%2+1 == 0){
-            for(int i = 0; i < word.length()/2 -1; i++){
-                if(word.charAt(i) != word.charAt(word.length() -i - 1))
-                    return false;
-                else
-                    result = true; 
-            }
-        }else{
-            for(int i = 0; i < (word.length()-1)/2-1; i++){
-                if(word.charAt(i) != word.charAt(word.length() -i -1))
-                    return false;
-                else
-                    result = true;
-            }
-        }*/
-      
+        return true; 
     }
 
     public static void main(String[] args) {
